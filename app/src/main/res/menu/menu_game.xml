@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/it_chonbo"
+        android:title="犯規"></item>
+    <item
+        android:id="@+id/it_cancelRichi"
+        android:title="取消立直"></item>
+
+</menu>

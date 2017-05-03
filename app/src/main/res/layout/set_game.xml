@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/set_game"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.hikage.japanmahjong.SetGame">
+
+
+    <TextView
+        android:id="@+id/tv_east"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:color/background_dark"
+        android:text="@string/east"
+        android:textColor="@android:color/white" />
+
+    <TextView
+        android:id="@+id/tv_eastPlayer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/player_east"
+        android:textColor="@android:color/black"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/tv_south"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:color/background_dark"
+        android:text="@string/south"
+        android:textColor="@android:color/white" />
+
+    <TextView
+        android:id="@+id/tv_southPlayer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/player_south"
+        android:textColor="@android:color/black"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/tv_west"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:color/background_dark"
+        android:text="@string/west"
+        android:textColor="@android:color/white"
+        android:textSize="14sp" />
+
+    <TextView
+        android:id="@+id/tv_westPlayer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/player_west"
+        android:textColor="@android:color/black"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/tv_north"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:color/background_dark"
+        android:text="@string/north"
+        android:textColor="@android:color/white" />
+
+    <TextView
+        android:id="@+id/tv_northPlayer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/player_north"
+        android:textColor="@android:color/black"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/tv_cmd"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:textColor="@android:color/holo_red_dark"
+        android:textSize="18sp" />
+
+    <LinearLayout
+        android:id="@+id/lv_dice"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:onClick="onClickDice"
+        android:orientation="horizontal"
+        android:visibility="invisible">
+
+        <ImageView
+            android:id="@+id/img_dice1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@mipmap/dice_1" />
+
+        <ImageView
+            android:id="@+id/img_dice2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@mipmap/dice_6" />
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:id="@+id/lv_startGame"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:visibility="invisible">
+
+
+        <Button
+            android:id="@+id/btn_start"
+            android:layout_width="328dp"
+            android:layout_height="60dp"
+            android:onClick="onClickStartGame"
+            android:text="@string/start_game" />
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:id="@+id/lv_tile"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="bottom|center_horizontal"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/img_tile0"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:onClick="onClickTile"
+            android:src="@mipmap/tile_b" />
+
+        <ImageView
+            android:id="@+id/img_tile1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:onClick="onClickTile"
+            android:src="@mipmap/tile_b" />
+
+        <ImageView
+            android:id="@+id/img_tile2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:onClick="onClickTile"
+            android:src="@mipmap/tile_b" />
+
+        <ImageView
+            android:id="@+id/img_tile3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:onClick="onClickTile"
+            android:src="@mipmap/tile_b" />
+
+    </LinearLayout>
+</LinearLayout>

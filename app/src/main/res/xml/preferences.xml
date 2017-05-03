@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <ListPreference
+        android:defaultValue="@string/default_set_point"
+        android:dialogTitle="@string/set_point_title"
+        android:entries="@array/set_point"
+        android:entryValues="@array/set_point_value"
+        android:key="pref_setPoint"
+        android:summary="@string/set_point_summary"
+        android:title="@string/set_point_title" />
+
+    <ListPreference
+        android:defaultValue="@string/default_return_point"
+        android:dialogTitle="@string/return_point_title"
+        android:entries="@array/set_point"
+        android:entryValues="@array/set_point_value"
+        android:key="pref_returnPoint"
+        android:summary="@string/return_point_summary"
+        android:title="@string/return_point_title" />
+
+    <CheckBoxPreference
+        android:defaultValue="false"
+        android:key="pref_lastWind"
+        android:summary="@string/last_wind_summary"
+        android:title="@string/last_wind_title" />
+
+    <CheckBoxPreference
+        android:defaultValue="true"
+        android:key="pref_eastRenchan"
+        android:summary="@string/east_renchan_summary"
+        android:title="@string/east_renchan_title" />
+
+    <CheckBoxPreference
+        android:defaultValue="false"
+        android:key="pref_southRenchan"
+        android:summary="@string/south_renchan_summary"
+        android:title="@string/south_renchan_title" />
+
+    <ListPreference
+        android:defaultValue="@string/defalut_honba_point"
+        android:dialogTitle="@string/set_honba_title"
+        android:entries="@array/honba_point"
+        android:entryValues="@array/honba_point_value"
+        android:key="pref_honbaPoint"
+        android:summary="@string/set_honba_summary"
+        android:title="@string/set_honba_title" />
+
+</PreferenceScreen>

@@ -1,0 +1,81 @@
+<resources>
+    <string name="app_name">麻雀助手</string>
+    <string name="east">東家</string>
+    <string name="south">南家</string>
+    <string name="west">西家</string>
+    <string name="north">北家</string>
+    <string name="start">一般開局</string>
+    <string name="auto_start">自動開局</string>
+    <string name="cancel">取消</string>
+    <string name="player_name">請輸入玩家姓名</string>
+    <string name="player_east">東</string>
+    <string name="player_south">南</string>
+    <string name="player_west">西</string>
+    <string name="player_north">北</string>
+    <string name="explain">使用說明</string>
+    <string name="logs">牌局紀錄</string>
+    <string name="option">設定</string>
+    <string name="start_game">開始牌局</string>
+    <string name="touch_me">touch me!</string>
+    <string name="game_info">東一局</string>
+    <string name="x_0"> x 0</string>
+    <string name="point_25000">25000</string>
+    <string name="chose_tenpai">請選擇聽牌者</string>
+    <string name="abortive_draws">途中流局</string>
+    <string name="done">確定</string>
+    <string name="pay">支付：0點</string>
+    <string name="get">獲得：0點</string>
+    <string name="honba">本場：1000x0=0</string>
+    <string name="deposition">供託：1000x0=0</string>
+    <string name="point_1000">1000</string>
+    <string name="point">點</string>
+    <string name="han">翻</string>
+    <string name="fu">符</string>
+    <string name="fu_30">30符</string>
+    <string name="han_1">1飜</string>
+    <string name="ron">放槍者</string>
+    <string name="parent_pay">親家支付：0點</string>
+    <string name="other_pay">閒家支付：0點</string>
+    <string name="get_point">持有點數：</string>
+    <string name="no_2">2位：</string>
+    <string name="score">得點：</string>
+    <string name="no_3">3位：</string>
+    <string name="no_4">4位：</string>
+    <string name="end">結束</string>
+    <string name="no_1">1位：</string>
+    <string name="result">結果發表</string>
+    <string name="return_point">返還點數：30000</string>
+    <string name="set_point_title">配給原點</string>
+    <string name="set_point_summary">牌局開始時所持有點數</string>
+    <string name="return_point_summary">牌局結束時所返還點數</string>
+    <string name="return_point_title">返還點數</string>
+    <string name="last_wind_summary">未勾選擇默認為東風戰</string>
+    <string name="last_wind_title">半莊戰</string>
+    <string name="east_renchan_summary">東場流局時親家聽牌得連莊</string>
+    <string name="east_renchan_title">東場親連莊</string>
+    <string name="south_renchan_summary">南場流局時親家聽牌得連莊</string>
+    <string name="south_renchan_title">南場親連莊</string>
+    <string name="set_honba_summary">每1本場所代表的點數</string>
+    <string name="set_honba_title">1本場得點</string>
+    <string name="default_return_point">300</string>
+    <string name="default_set_point">250</string>
+    <string name="defalut_honba_point">3</string>
+    <string name="tsumo_info">親家自摸</string>
+    <string name="explain_tile">點選字牌</string>
+    <string name="explain_tile1">"　　"點選玩家字牌即會顯示該玩家和局選單。</string>
+    <string name="explain_tile2">"　　"依據遊戲狀態選擇「榮、自摸、立直」，並依照選擇選項自動進入和局畫面。</string>
+    <string name="explain_tile3">"　　"依據遊戲狀態拖曳「符、飜」旁的滑條即會自動計算得點。
+        榮和須選擇放槍者，自摸則無。完成選擇後點選確認鍵繼續牌局。</string>
+    <string name="explain_tile4">"　　"長壓玩家字牌即會顯示該玩家其他選單，依照遊戲狀態選擇「犯規、取消立直」。"\n\n"
+        犯規：預設罰則為「滿貫罰符」。莊家罰符須向每位子家支付4000點。子家如果需要罰符，則要支付莊家4000點，其他兩名子家2000點。"\n\n"
+        取消立直：若玩家誤操作「立直」則可以選擇「取消立直」，系統將會自動取消玩家立直狀態並返回玩家立直點數。</string>
+    <string name="explain_game_info">點選牌局</string>
+    <string name="explain_game_info1">"　　"點選牌局即會詢問玩家是否「流局」。</string>
+    <string name="explain_game_info2">"　　"進入流局選單後請選擇已聽牌之玩家或中途流局*，完成選擇後即可點選確認鍵。系統將依照選項自動繼續牌局。"\n\n"
+        *註：選擇中途流局的情況包括「九種九牌、四槓流局、四風連打、四家立直、三家榮胡、違規」。若中途流局將不計本局自動重新本局。</string>
+    <string name="explain_dice">點選骰子</string>
+    <string name="explain_dice1">"　　"點選骰子即會自動計算骰子點數並顯示牌局起始牌山，若玩家須重新擲骰則再次點選骰子即可。</string>
+    <string name="explain_other">其他</string>
+</resources>
+
+
